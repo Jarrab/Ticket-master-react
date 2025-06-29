@@ -1,0 +1,43 @@
+body{
+    background-color: #ffff;
+}
+
+.pagination{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page{
+    font-size: 20px;
+    padding: 0;
+    cursor: pointer;
+    font-weight: 700 ;
+}
+
+.next{
+    font-size: 20px;
+    padding: 0 8px;
+}
+
+.previous,
+.next{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.previous{
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.next{
+    margin-left: 8px;
+}
+
+.activeClass{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
