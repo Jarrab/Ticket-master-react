@@ -12,7 +12,7 @@ const Detail = () => {
     useEffect(()=>{
         const fetchEventData = async () =>{
             try {
-                const response = await fetch(`/discovery/v2/events/${eventId}?apikey=BTnr9k7yLKID66Sf7ABXwquwmcE02GxX`)
+                const response = await fetch(`/discovery/v2/events/${eventId}?apikey=${import.meta.env.VITE_TICKETMASTE_API_KEY}`)
                 const data = await response.json()
 
                 setDataEvent(data)
