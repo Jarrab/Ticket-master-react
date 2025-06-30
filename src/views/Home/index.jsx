@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import ReactPaginate from "react-paginate";
-import useEventsData from "../../hooks/useEventsData.js";
+//import useEventsData from "../../hooks/useEventsData.js";
 import useEventsResults from "../../state/events-results.js"
 import NavBar from "../../components/Navbar";
 import Events from "../../components/Events";
